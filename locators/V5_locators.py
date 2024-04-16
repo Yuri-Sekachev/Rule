@@ -2,8 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class V5Locators:
-    close_modal_1_button = (By.CSS_SELECTOR,
-                            '.new-feature-modal-control.-basic.-medium.rule-button-base.rule-button.-ghost')
+    close_modal_1_button = (By.CSS_SELECTOR, 'button.new-feature-modal-close-button')
     close_modal_2_button = (By.CSS_SELECTOR,
                             'rule-start-widget .rule-start-widget-header.ng-star-inserted .rule-start-widget-heading '
                             '.rule-start-widget-controls > button:nth-child(2)')

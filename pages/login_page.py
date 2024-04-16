@@ -12,7 +12,7 @@ class LoginPage(BasePage):
         self.element_is_visible(Locators.PASSWORD_INPUT_FIELD).send_keys('Balagan1234')
 
     def click_sign_in_button(self):
-        self.element_is_visible(Locators.SIGN_IN_BUTTON).click()
+        self.element_is_visible(Locators.LOG_IN_BUTTON).click()
 
     def login(self):
         self.fill_email_field()

@@ -6,7 +6,7 @@ from pages.login_page import LoginPage
 
 class TestSuccessfulLogin:
     def test_successful_login(self, driver):
-        login_page = LoginPage(driver, 'https://app.rule.io')
+        login_page = LoginPage(driver, 'https://app.rule.io/v5/#/auth/login')
         home_page = HomePage(driver, 'https://app.rule.io')
         login_page.open()
         login_page.fill_email_field()
